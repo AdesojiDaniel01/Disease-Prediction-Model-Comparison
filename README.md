@@ -55,12 +55,15 @@ CSV Output: The results are stored in a CSV file for easy access and future refe
 How to Run the Code
 Install the necessary libraries: The required Python libraries include pandas, sklearn, matplotlib, and others. You can install them using pip:
 
+bash
+Copy
 pip install pandas scikit-learn matplotlib xgboost lightgbm
 Load the dataset: Make sure the dataset (Preprocessed_Disease_Dataset.csv) is available in your directory or adjust the file path in the code accordingly.
 
 Run the code: Execute the Python script. The models will be trained and evaluated, and the results will be printed in the console and displayed as graphs. Additionally, the results will be saved as a CSV file named model_evaluation_comparison.csv.
 
-
+bash
+Copy
 python disease_prediction_comparison.py
 Visualize Results: After running the code, you will see the comparison metrics displayed as a series of bar plots that compare the accuracy, precision, recall, and F1 score for each model.
 
